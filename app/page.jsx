@@ -17,11 +17,10 @@ export default function Page() {
       <main className="bg-gray-100 min-h-screen p-4">
       <section className="relative w-full max-w-6xl mx-auto overflow-hidden rounded-lg shadow-lg">
         <div className="relative h-[400px] md:h-[500px] w-full">
-          <Image
-            src="/images/cyberpunk-hero.jpg"
+          <Image src="/public/img/bg-cyberpunk.jpg"
             alt="Cyberpunk 2077: Phantom Liberty"
-            fill
-            priority
+            width={400}
+            height={400}
             className="object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -51,4 +50,3 @@ export default function Page() {
     </>
   );
 }
-
